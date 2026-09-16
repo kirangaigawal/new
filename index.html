@@ -19,7 +19,8 @@ body{font-family:var(--fb);color:var(--white);background:var(--ink);-webkit-font
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,30,30,.22) 0%,rgba(30,30,30,.10) 40%,rgba(30,30,30,.55) 100%),linear-gradient(90deg,rgba(30,30,30,.35) 0%,rgba(30,30,30,.05) 60%)}
 .hero-mark{position:absolute;right:-0.5vw;bottom:6vh;z-index:2;font-size:clamp(4rem,11vw,11rem);font-weight:300;letter-spacing:.18em;color:rgba(255,255,255,.10);pointer-events:none;user-select:none;writing-mode:vertical-rl;transform:rotate(180deg)}
 .lux-head{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:space-between;padding:28px clamp(24px,5vw,72px)}
-.brand{display:inline-flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--white)}
+.brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:var(--white)}
+.brand-logo{width:44px;height:44px;object-fit:contain}
 .brand-word{font-size:22px;font-weight:600;letter-spacing:.02em}
 .brand-tag{font-size:11px;letter-spacing:.28em;text-transform:uppercase;opacity:.7}
 .menu-btn{display:flex;flex-direction:column;gap:5px;width:34px;padding:6px 0}
@@ -47,8 +48,9 @@ body{font-family:var(--fb);color:var(--white);background:var(--ink);-webkit-font
   <div class="hero-mark">COMPOSED</div>
 
   <nav class="lux-head">
-    <a href="#" class="brand">
-<span class="brand-word">SDK Electrical</span>
+<a href="#" class="brand">
+      <img src="logo.jpeg" alt="SDK Electrical logo" class="brand-logo">
+      <span class="brand-word">SDK Electrical</span>
     </a>
     <div class="menu-btn">
       <span></span><span></span><span></span>
